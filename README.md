@@ -86,11 +86,5 @@ Postgresql
 * Git
 * Github
 
-**Project Management Tools**
-* Trello 
-(a kanban-like board)
-* Discord
-(used to communicate)
-
 **Image Upload**
 * AWS S3 Bucket
