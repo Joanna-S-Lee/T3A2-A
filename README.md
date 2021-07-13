@@ -88,3 +88,51 @@ Postgresql
 
 **Image Upload**
 * AWS S3 Bucket
+
+# R4
+## 	User Stories
+‘persona, what and why'
+
+outline meaningful features of project
+
+Shows evidence of user story revision and refinement.
+
+---
+
+Initial research
+
+User 1:
+
+As a *foodie*, I want to be able to see the menu and the pictures of the food before I make my decision to dine in this place. So I access the **gallery** and the **menu** on the web portal to see if the dishes are to my liking.
+
+User 2:
+
+As a *late-night eater*, I want to check the **opening hours** from the website to see if my favourite korean eatery is still open.
+
+User 3:
+
+As an *anxious diner* I want to get the **contact number** of the restaurant to be assured by the owners that they are abiding by the current COVID restrictions.
+
+User 4:
+
+As *someone unfamiliar with the area*, I want to get the **restaurant address** to input into Google Maps so that I can easily find the restaurant in this new area.
+
+User 5:
+
+As *someone who is organizing a proposal*, I use the **booking system** to be sure that I am guaranteed a table in this popular eatery with my (hopefully) future fiancée. 
+
+User 6:
+
+As *frequent diner* of the Korean eatery, I use the **save contact details in a login** function so that I can easily make repeated bookings with just a few clicks.
+
+User 7:
+
+As the *kitchen manager* I want to be able to estimate how much food that needs to be prepared, so I pull up the **booking system** on my **dashboard** and see how many potential diners I will have.
+
+User 8: 
+
+As the *host/hostess* at the Korean eatery, I pull up the **booking system** so that I can confirm that the diner that just came in did have a booking with our restaurant for this timeslot.
+
+User 9:
+
+As the *chef* I 
