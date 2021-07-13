@@ -34,14 +34,17 @@ In discussion with the client, they decided that it would be easier to have a se
 
 **Client:** 
 * Has dashboard to look at to view the current bookings
-* can update the booking settings on the dashboard
+* has admin privileges and can update the booking settings on the dashboard
 * Can update website information e.g. changes to the menu, opening hours 
+
+**Bonus Features**
+* The booking system is synced with Melbourne Money. This way when the meal has been paid for the contact details can be transferred to Melbourne Money to simplify the rebate claim process.
 
 ## Target audience
 
 This application is aimed towards two main groups. 
 
-**1) The restaurant owners**
+**1) The Restaurant Owners**
 
 This is a young couple who started their business end of 2018 to early 2019. They are both relatively new to the restaurant business but have a passion for cooking delicious and affordably priced food. 
 
@@ -51,7 +54,7 @@ The clients will have access to the dashboard for the booking system which grant
 
 Another thing to consider is that contact details of the diners will be stored in an easily accessible way. In this way, should contact tracing need to be done, the clients will have the information ready and available for the Victorian government to utilize.
 
-**2) The diners**
+**2) The Diners**
 
 The diners will represent the potential and returning customers of the restaurant.
 
@@ -91,15 +94,7 @@ Postgresql
 
 # R4
 ## 	User Stories
-‘persona, what and why'
-
-outline meaningful features of project
-
-Shows evidence of user story revision and refinement.
-
----
-
-Initial research
+Initial User Stories
 
 User 1:
 
@@ -135,4 +130,28 @@ As the *host/hostess* at the Korean eatery, I pull up the **booking system** so 
 
 User 9:
 
-As the *chef* I 
+As the *chef* I want to make changes to the **menu**, so that I can cook the new recipes that I have come up with and serve them to the diners.
+
+User 10:
+
+As the *restaurant owner* I want to make changes to the **opening hours** in the web portal to reflect the new working hours that is more financially viable during COVID lockdown.
+
+---
+
+After further consultation with the clients some extra user stories and features were proposed:
+
+User 1:
+
+As the *cashier* and *restaurant owner* I want to encourage the diners to use Melbourne Money so that they become return customers, so I show them the **sync function in the booking system** that transfers the contact details to Melbourne Money simplifying the rebate claim.
+
+User 2: 
+
+As the *restaurant owner* I want to make sure that only I can edit the **booking system settings**, so I will be given **admin privileges** for the **booking system**.
+
+User 3:
+
+As the *restaurant owner* I want to have the diner's contact information easily retrievable should the Victorian Government need them, so I access it with my **admin privileges**, opening the **contact information of previous diners** on the **dashboard**.
+
+User 4: 
+
+As the *restaurant owner*, I want to change the booking settings to reflect the new COVID restrictions, I do that by using my **admin privileges** on the **dashboard** to restrict number of people per table.
