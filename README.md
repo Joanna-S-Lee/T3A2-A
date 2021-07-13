@@ -96,45 +96,96 @@ Postgresql
 ## 	User Stories
 Initial User Stories
 
-User 1:
+**Persona 1**
 
-As a *foodie*, I want to be able to see the menu and the pictures of the food before I make my decision to dine in this place. So I access the **gallery** and the **menu** on the web portal to see if the dishes are to my liking.
+**Who:** 
 
-User 2:
+*Foodie diner* persona who is passionate about eating delicious well-made food. 
 
-As a *late-night eater*, I want to check the **opening hours** from the website to see if my favourite korean eatery is still open.
+**Goal:** 
 
-User 3:
+They want to be able to make informed decision on the places they eat in, making sure the restaurant that it is up to their high standards.
 
-As an *anxious diner* I want to get the **contact number** of the restaurant to be assured by the owners that they are abiding by the current COVID restrictions.
+**Problem:**
 
-User 4:
+ Most restaurant websites are lacking in detail and not user-friendly.
 
-As *someone unfamiliar with the area*, I want to get the **restaurant address** to input into Google Maps so that I can easily find the restaurant in this new area.
+**User Stories**
 
-User 5:
+* I want to be able to see the menu and the pictures of the food before I make my decision to dine in this place. 
 
-As *someone who is organizing a proposal*, I use the **booking system** to be sure that I am guaranteed a table in this popular eatery with my (hopefully) future fiancée. 
+* I want to get the contact number of the restaurant to be assured by the owners that they are abiding by the current COVID restrictions and cleanliness standards.
 
-User 6:
+**Persona 2**
 
-As *frequent diner* of the Korean eatery, I use the **save contact details in a login** function so that I can easily make repeated bookings with just a few clicks.
+**Who:**
 
-User 7:
+*Efficiency* persona is a person who likes things to be efficient,user-friendly, convenient and easily accessible. 
 
-As the *kitchen manager* I want to be able to estimate how much food that needs to be prepared, so I pull up the **booking system** on my **dashboard** and see how many potential diners I will have.
+**Goal:**
 
-User 8: 
+Their priority is that eating at the restaurant is the simplest thing in the world and that there is nothing that slows them down unnecessarily.
 
-As the *host/hostess* at the Korean eatery, I pull up the **booking system** so that I can confirm that the diner that just came in did have a booking with our restaurant for this timeslot.
+**Problem:**
 
-User 9:
+They find it hard to know when the restaurant is open and where it's located. They struggle with lack of or counter-intuitive booking systems. 
 
-As the *chef* I want to make changes to the **menu**, so that I can cook the new recipes that I have come up with and serve them to the diners.
+**User Stories**
+
+* I want to check the opening hours from the website so that I can see if my favourite korean eatery is still open.
+
+* I want to get the restaurant address to input into Google Maps so that I can easily find the restaurant and not lose time finding the place.
+
+* I use the user-friendly booking system so that I am guaranteed a table in this popular eatery. 
+
+* I save my contact details in a login with the booking system so that I can easily make repeated bookings with just a few clicks.
+
+**Persona 3**
+
+**Who:**
+
+The *Kitchen Manager* persona is someone who is responsible for the overall operations back of the house and kitchen area.
+
+**Goal:**
+
+To be able to make preparations for the day's work in the kitchen.
+
+**Problem**
+
+They have been guesstimating on how much food is needed to be purchase and sometimes purchase too much and would like to minimize that.
+
+**User Stories**
+
+* I want to see how many potential diners the restaurant will have so that I am able to estimate how much food that needs to be purchased or ordered in advance.
+
+**Persona 4**
+
+**Who:**
+
+The *host/hostess* is responsible for greeting the customers and seating them at their tables.
+
+**Goal:**
+Their goal is to greet and quickly seat diners.
+
+**Problem**
+Previously, all the bookings were written in a book and not well organized. 
+
+**User Stories**
+
+* I want access to the confirmed bookings so that I can quickly and easily check that the diner has a booking for this timeslot.
+
+**Persona 4**
+
+**Who:**
+
+The *head chef* persona is the one who oversees the cooking and food preparation.
+
+
+I want to be able to edit the menu, so that I can cook and serve new recipes to the diners.
 
 User 10:
 
-As the *restaurant owner* I want to make changes to the **opening hours** in the web portal to reflect the new working hours that is more financially viable during COVID lockdown.
+As the *restaurant owner* I want to make changes to the opening hoursin the web portal to reflect the new working hours that is more financially viable during COVID lockdown.
 
 ---
 
@@ -142,16 +193,16 @@ After further consultation with the clients some extra user stories and features
 
 User 1:
 
-As the *cashier* and *restaurant owner* I want to encourage the diners to use Melbourne Money so that they become return customers, so I show them the **sync function in the booking system** that transfers the contact details to Melbourne Money simplifying the rebate claim.
+As the *cashier* and *restaurant owner* I want to encourage the diners to use Melbourne Money so that they become return customers.
 
 User 2: 
 
-As the *restaurant owner* I want to make sure that only I can edit the **booking system settings**, so I will be given **admin privileges** for the **booking system**.
+As the *restaurant owner* I want admin privileges to make sure that only I can edit the booking system settings and no one else.
 
 User 3:
 
-As the *restaurant owner* I want to have the diner's contact information easily retrievable should the Victorian Government need them, so I access it with my **admin privileges**, opening the **contact information of previous diners** on the **dashboard**.
+As the *restaurant owner* I want to have the diner's contact information easily retrievable should the Victorian Government need them.
 
 User 4: 
 
-As the *restaurant owner*, I want to change the booking settings to reflect the new COVID restrictions, I do that by using my **admin privileges** on the **dashboard** to restrict number of people per table.
+As the *restaurant owner*, I want the booking settings to sync up with the new COVID restrictions so that I am assured that the restaurant is operating within the regulations.
