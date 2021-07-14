@@ -104,7 +104,7 @@ Initial User Stories
 
 **Goal:** 
 
-They want to be able to make informed decision on the places they eat in, making sure the restaurant that it is up to their high standards.
+They want to be able to make informed decision on the places they eat in, making sure that the restaurant is up to their high standards.
 
 **Problem:**
 
@@ -128,7 +128,7 @@ Their priority is that eating at the restaurant is the simplest thing in the wor
 
 **Problem:**
 
-They find it hard to know when the restaurant is open and where it's located. They struggle with lack of or counter-intuitive booking systems. 
+They find it hard to know when the restaurant is open and where it's located. They struggle with lack of and counter-intuitive booking systems. 
 
 **User Stories**
 
@@ -152,7 +152,7 @@ To be able to make preparations for the day's work in the kitchen.
 
 **Problem**
 
-They have been guesstimating on how much food is needed to be purchase and sometimes purchase too much and would like to minimize that.
+They have been guesstimating on how much food is needed to be purchased and sometimes purchase too much and would like to minimize waste.
 
 **User Stories**
 
@@ -165,44 +165,63 @@ They have been guesstimating on how much food is needed to be purchase and somet
 The *host/hostess* is responsible for greeting the customers and seating them at their tables.
 
 **Goal:**
+
 Their goal is to greet and quickly seat diners.
 
 **Problem**
+
 Previously, all the bookings were written in a book and not well organized. 
 
 **User Stories**
 
 * I want access to the confirmed bookings so that I can quickly and easily check that the diner has a booking for this timeslot.
 
-**Persona 4**
+**Persona 5**
 
 **Who:**
 
 The *head chef* persona is the one who oversees the cooking and food preparation.
 
+**Goal:**
+
+Their goal is to be able to plan out the cooking so that customers can be served what was ordered from the menu
+
+**Problem**
+
+When they have a new recipe that they want to serve to the customers, they need to be able to change the menu to include the recipe.
+
+**User Stories**
 
 I want to be able to edit the menu, so that I can cook and serve new recipes to the diners.
 
-User 10:
+**Persona 6**
 
-As the *restaurant owner* I want to make changes to the opening hoursin the web portal to reflect the new working hours that is more financially viable during COVID lockdown.
+**Who:**
+
+The *restaurant owner* persona is the main client who owns the restaurant and is commissioning this project.
+
+**Goal:**
+
+To be able to easily manage the restaurant with the web portal and adapt to the ever-evolving COVID restrictions.
+
+**Problem**
+
+The COVID restrictions change frequently and the restaurant details need to be changed alongside it.
+
+**User Stories**
+
+I want to make changes to the opening hours in the web portal to reflect the new working hours that is more financially viable during COVID lockdown.
 
 ---
 
-After further consultation with the clients some extra user stories and features were proposed:
+After further consultation with the clients some extra user stories and features were proposed for the *restaurant owner* persona:
 
-User 1:
+**Restaurant Owner User Stories (After consultation)**
 
-As the *cashier* and *restaurant owner* I want to encourage the diners to use Melbourne Money so that they become return customers.
+* I want to encourage the diners to use Melbourne Money so that they become return customers.
 
-User 2: 
+* I want admin privileges to make sure that only I can edit the booking system settings and no one else.
 
-As the *restaurant owner* I want admin privileges to make sure that only I can edit the booking system settings and no one else.
+* I want to have the diner's contact information easily retrievable should the Victorian Government need them.
 
-User 3:
-
-As the *restaurant owner* I want to have the diner's contact information easily retrievable should the Victorian Government need them.
-
-User 4: 
-
-As the *restaurant owner*, I want the booking settings to sync up with the new COVID restrictions so that I am assured that the restaurant is operating within the regulations.
+* I want the booking settings to sync up with the new COVID restrictions so that I am assured that the restaurant is operating within the regulations.
