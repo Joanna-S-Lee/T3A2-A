@@ -246,3 +246,41 @@ After further consultation with the clients some extra user stories and features
 * I want to have the diner's contact information easily retrievable should the Victorian Government need them.
 
 * I want the booking settings to sync up with the new COVID restrictions so that I am assured that the restaurant is operating within the regulations.
+
+# R6
+## Screenshots of Trello
+
+[Link to Trello](https://trello.com/b/GlyDoEN9/t3a2-full-stack-app)
+
+
+Got started with the basics (trello board creation, github repo creation), divided up the tasks and assigned cards with name of team member responsible. Set initial due dates.
+
+![Trello 12thJul21-1](docs/Trello_12thJul21-1.PNG)
+
+![Trello 12thJul21-2](docs/Trello_12thJul21-2.PNG)
+
+
+Began work on Rubric 1, Rubric 3 and Rubric 4 tasks.
+
+![Trello 13thJul21-1](docs/Trello_13thJul21-1.PNG)
+
+![Trello 13thJul21-2 R1 completion](docs/Trello_13thJul21-2_R1_completion.PNG)
+
+![Trello 13thJul21-3 R4 Added Personas to User Stories](docs/Trello_13thJul21-3_R4_added_personas.PNG)
+
+![Trello 13thJul21-4 R4-completion](docs/Trello_13thJul21-4_R4_completion.PNG)
+
+![Trello 13thJul21-5 Reworking R4, working on R3 AAD](docs/Trello_13thJul21-5Working_on_R4_User_Stories_and_R3_Application_Architecture_Diagram.PNG)
+
+Began work on ERD and Rubric 2 Dataflow diagram.
+
+![Trello 14thJul21-1 ERD](docs/Trello_14thJul21-1_ERD.PNG)
+
+![Trello 14thJul21-2 Dataflow Diagram](docs/Trello_14thJul21-2_dataflow_diagram.PNG)
+
+Completion of Rubric 1, Rubric 2, Rubric 4 and added in Part B tasks.
+Added in labeling for MVP and coding, task difficulty. Added in more task due dates.
+
+![Trello 17thJul21-1 added part B tasks and labeling](docs/Trello_17thJul21-1_added_partB_tasks.PNG)
+
+![Trello 17thJul21-2Dataflow Diagram reworking](docs/Trello_17thJul21-2_dataflow_diagram.PNG)
