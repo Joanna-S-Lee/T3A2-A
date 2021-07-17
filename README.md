@@ -106,6 +106,13 @@ Postgresql
 
 ![Level 1 DFD](docs/T3A2_DFD_Level1_Diagram.jpeg)
 
+
+* A user exists and has authentication
+* The user choose to be guest only (no login) and still be able to create a booking
+* The user can edit their booking and can make repeated bookings easily because contact details is saved and autofilled when logged in
+* The user data is stored in user model database and booking data is stored in booking database
+
+
 # R4
 ## 	User Stories
 Initial User Stories
