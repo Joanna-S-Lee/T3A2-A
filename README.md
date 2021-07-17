@@ -247,6 +247,33 @@ After further consultation with the clients some extra user stories and features
 
 * I want the booking settings to sync up with the new COVID restrictions so that I am assured that the restaurant is operating within the regulations.
 
+# R5
+## Wireframes
+
+| Annotation| Comments|
+| -------- | -------------- |
+| 1 | Global Navigation  |
+| 2 | Restaurant Name positioned at the top to build branding. |
+|3|Restaurant Address also positioned at the top to enable easy finding of crucial information.| 
+|4|By swiping right the user is able to navigate to the menu|
+|5|Clicking on “DOWNLOAD MENU” will allow user to download pdf version of menu|
+|6|Clicking on the “MAKE BOOKING” will bring the user to the Confirmation Page where the user is assured that their booking has been made and they will receive a confirmation email.|
+|7|Booking confirmation page that user is brought to after submitting their booking|
+
+**Design Notes:**
+
+* The website has a minimalistic design with the crucial information positioned at the top. 
+
+* A consistent and global nav bar to ensure easy and intuitive navigation. 
+
+* Each page has a clear design with only the core information about the restaurant to help the user focus and not get overwhelmed by too many things at once.
+
+* Background image is chosen to depict nature of the website's business - restaurant and food.
+
+* Background image is consistent on the information pages. A white background is chosen for the booking pages to help the user focus.
+
+
+
 # R6
 ## Screenshots of Trello
 
