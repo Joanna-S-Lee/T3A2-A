@@ -92,6 +92,20 @@ Postgresql
 **Image Upload**
 * AWS S3 Bucket
 
+# R2
+## Dataflow Diagram
+
+*Utilized Gane-Sarson notation*
+![Gane-Sarson Notation](docs/T3A2_GaneSarson_Notation.jpeg)
+
+**Context Diagram – Level 0 DFD**
+
+![Context Diagram ](docs/T3A2_DFD_Level0_ContextDiagram.jpeg)
+
+**Level 1 Data Flow Diagram**
+
+![Level 1 DFD](docs/T3A2_DFD_Level1_Diagram.jpeg)
+
 # R4
 ## 	User Stories
 Initial User Stories
