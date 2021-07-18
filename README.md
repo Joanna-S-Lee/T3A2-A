@@ -1,52 +1,58 @@
 # R1
-## Description of your website, including:
+
+## Description of your website, including
 
 ## Purpose
+
 This full-stack web application came to be when we were approached by our client - the owners of a small Korean restaurant. They were a young couple who had opened a Korean restaurant in the Melbourne CBD in 2019. Their business has been thriving and increasing since their opening because of the delicious food,quick service that they provided and affordable prices. With the COVID pandemic starting in March 2020 however, the client found that they needed to adapt their online presence to fit in with the current and ever-changing COVID restrictions. It was with this purpose that the client sought our team and commissioned us to create a better web application that would scale and adapt with their increased sales and the constantly evolving COVID restrictions and regulations.
 
 This web application serves to fulfill two main purposes. Firstly, it will be a web portal where potential diners and customers can access the website to get more information about the restaurant, information like the restaurant's address, menu, contact number, pictures of food etc. Secondly, in-line with the COVID-safe restrictions, diners are able to use this web portal to book a table and timeslot and input their contact details for easy contact tracing should the need arise.
 
-Before hiring our team to make this application, the restaurant's online presence consisted of an Instagram page. So if potential diners wanted to access information like the menu, opening hours etc it was all shown on their Instagram profile description. And when diners wanted to book a spot, they had to Direct Message(DM) the restaurant owners via Instagram or call in. In essence, this was not the most user-friendly booking system for a restaurant as it was reliant on a back and forth in a Instagram DM conversation or with a phone call, making the whole booking process inefficient and pulling our client's attention away from cooking or serving the diners. This was also further complicated by COVID restrictions and their restaurant becoming popular and attracting increasingly more diners. 
+Before hiring our team to make this application, the restaurant's online presence consisted of an Instagram page. So if potential diners wanted to access information like the menu, opening hours etc it was all shown on their Instagram profile description. And when diners wanted to book a spot, they had to Direct Message(DM) the restaurant owners via Instagram or call in. In essence, this was not the most user-friendly booking system for a restaurant as it was reliant on a back and forth in a Instagram DM conversation or with a phone call, making the whole booking process inefficient and pulling our client's attention away from cooking or serving the diners. This was also further complicated by COVID restrictions and their restaurant becoming popular and attracting increasingly more diners.
 
 As the diners increased and restrictions tightened, this meant that keeping track of the contact details of the diners was difficult as they came from two different sources (Instagram DMs and calling in) and it was on the couple to store that data in an easily accessible place should the information become necessary for contact tracing. Furthermore, potential diners were accustomed to a more official booking system where they received an e-mail confirmation of their booking and were able to easily manage their booking should the need to update or cancel a booking arose. With a booking system in place, the clients would then able to maximize the space that they have and be assured that they are not unnecessarily turning away potential diners and losing business while also having the confidence that they are operating safely within the current COVID restrictions.
 
 In discussion with the client, they decided that it would be easier to have a separate website (that's not on Instagram) for their restaurant that would have the booking system on it. The client would have a secure dashboard where they could easily view the current bookings that are in place at the time of them viewing it and prepare the restaurant accordingly, they will not have to worry about the storing of bookings and contact details anymore but be able to refocus on making delicious food. The booking system will also improve the user experience of the diners and further encourage them to come back again making it a win-win situation.
 
-
 ## Functionality / features
 
-**Main Web Portal**
+### Main Web Portal
+
 * Lists Opening Hours
 * Lists Contact Number
 * Lists Restaurant Address
 * Shows Menu
 * Shows Gallery (has pictures of food)
 
-**Booking**
+### Booking
+
 * Ability to specify number of people in your party (up to 5)
 * Ability to select a date to dine-in
 * Ability to select a time to dine-in
 * Ability to input contact details like
-    * First Name and Last Name
-    * Email
-    * Phone Number
-* Ability to save the contact details in a login to speed up future bookings and allows for updating and managing of the current booking.
+  * First Name and Last Name
+  * Email
+  * Phone Number
+* Ability to save the contact details as a cookie to speed up future bookings
+* Ability to recall bookings through the use of a reference number/code and edit or cancel the booking
 
-**Client:** 
+### Client:
+
 * Has dashboard to look at to view the current bookings
 * has admin privileges and can update the booking settings on the dashboard
-* Can update website information e.g. changes to the menu, opening hours 
+* Can update website information e.g. changes to the menu, opening hours
 
-**Bonus Features**
+### Bonus Features
+
 * The booking system is synced with Melbourne Money. This way when the meal has been paid for the contact details can be transferred to Melbourne Money to simplify the rebate claim process.
 
 ## Target audience
 
-This application is aimed towards two main groups. 
+This application is aimed towards two main groups.
 
-**1) The Restaurant Owners**
+### 1) The Restaurant Owners**
 
-This is a young couple who started their business end of 2018 to early 2019. They are both relatively new to the restaurant business but have a passion for cooking delicious and affordably priced food. 
+This is a young couple who started their business end of 2018 to early 2019. They are both relatively new to the restaurant business but have a passion for cooking delicious and affordably priced food.
 
 They are fairly tech savvy but would like to further upgrade their current online presence so that they can more easily and efficiently handle the increase in diners while safely operating in accordance with the current COVID restrictions.
 
@@ -54,46 +60,45 @@ The clients will have access to the dashboard for the booking system which grant
 
 Another thing to consider is that contact details of the diners will be stored in an easily accessible way. In this way, should contact tracing need to be done, the clients will have the information ready and available for the Victorian government to utilize.
 
-**2) The Diners**
+### 2) The Diners**
 
 The diners will represent the potential and returning customers of the restaurant.
 
 With this target audience in mind, the website would be formatted in a standard way in the style of other popular restaurant sites. This is to ensure that navigation of the website is intuitive and is set up in a user-friendly way to encourage new and repeat diners.
 
-The focus of the booking system format and functionality will keep this target audience in mind as they will be the primary ones using it. 
+The focus of the booking system format and functionality will keep this target audience in mind as they will be the primary ones using it.
 
 ## Tech stack
 
-**Front-end**
+### Front-end
 
 * React (Framework)
 * HTML
 * CSS
 * Javascript
 
-**Back-end**
+### Back-end
 
 * Ruby on Rails (Framework)
 
-**Database**
+### Database
 
-Postgresql
+PostgreSQL
 
-**Deployment**
+### Deployment
 
 *Back-end* : Heroku
 
 *Front-end* : Netlify
 
-**Version Control**
+### Version Control
+
 * Git
 * Github
 
-**Image Upload**
-* AWS S3 Bucket
+## R2
 
-# R2
-## Dataflow Diagram
+### Dataflow Diagram
 
 *Utilized Gane-Sarson notation*
 ![Gane-Sarson Notation](docs/T3A2_GaneSarson_Notation.jpeg)
@@ -106,24 +111,29 @@ Postgresql
 
 ![Level 1 DFD](docs/T3A2_DFD_Level1_Diagram.jpeg)
 
-
 * A user exists and has authentication
 * The user choose to be guest only (no login) and still be able to create a booking
 * The user can edit their booking and can make repeated bookings easily because contact details is saved and autofilled when logged in
+* Guest users can edit their bookings using a ref number/code
 * The user data is stored in user model database and booking data is stored in booking database
 
+## R3
+### Architecture Diagram
 
-# R4
-## 	User Stories
+![Architecture Diagram](./docs/T3A2%20Arch%20Diagram1024_1.jpg)
+## R4
+
+### User Stories
+
 Initial User Stories
 
 **Persona 1**
 
-**Who:** 
+**Who:**
 
-*Foodie diner* persona who is passionate about eating delicious well-made food. 
+*Foodie diner* persona who is passionate about eating delicious well-made food.
 
-**Goal:** 
+**Goal:**
 
 They want to be able to make informed decision on the places they eat in, making sure that the restaurant is up to their high standards.
 
@@ -133,7 +143,7 @@ They want to be able to make informed decision on the places they eat in, making
 
 **User Stories**
 
-* I want to be able to see the menu and the pictures of the food before I make my decision to dine in this place. 
+* I want to be able to see the menu and the pictures of the food before I make my decision to dine in this place.
 
 * I want to get the contact number of the restaurant to be assured by the owners that they are abiding by the current COVID restrictions and cleanliness standards.
 
@@ -141,7 +151,7 @@ They want to be able to make informed decision on the places they eat in, making
 
 **Who:**
 
-*Efficiency* persona is a person who likes things to be efficient,user-friendly, convenient and easily accessible. 
+*Efficiency* persona is a person who likes things to be efficient,user-friendly, convenient and easily accessible.
 
 **Goal:**
 
@@ -149,7 +159,7 @@ Their priority is that eating at the restaurant is the simplest thing in the wor
 
 **Problem:**
 
-They find it hard to know when the restaurant is open and where it's located. They struggle with lack of and counter-intuitive booking systems. 
+They find it hard to know when the restaurant is open and where it's located. They struggle with lack of and counter-intuitive booking systems.
 
 **User Stories**
 
@@ -157,7 +167,7 @@ They find it hard to know when the restaurant is open and where it's located. Th
 
 * I want to get the restaurant address to input into Google Maps so that I can easily find the restaurant and not lose time finding the place.
 
-* I use the user-friendly booking system so that I am guaranteed a table in this popular eatery. 
+* I use the user-friendly booking system so that I am guaranteed a table in this popular eatery.
 
 * I save my contact details in a login with the booking system so that I can easily make repeated bookings with just a few clicks.
 
@@ -191,7 +201,7 @@ Their goal is to greet and quickly seat diners.
 
 **Problem**
 
-Previously, all the bookings were written in a book and not well organized. 
+Previously, all the bookings were written in a book and not well organized.
 
 **User Stories**
 
@@ -247,14 +257,17 @@ After further consultation with the clients some extra user stories and features
 
 * I want the booking settings to sync up with the new COVID restrictions so that I am assured that the restaurant is operating within the regulations.
 
-# R5
-## Wireframes
+## R5
+
+### Wireframes
+
+A walkthrough of the prototyped UI wireframes [can be accessed by clicking this link.](https://drive.google.com/drive/folders/1XwLILvUIB2874_YWrproKqh3Z4GWsh5I?usp=sharing)
 
 | Annotation| Comments|
 | -------- | -------------- |
 | 1 | Global Navigation  |
 | 2 | Restaurant Name positioned at the top to build branding. |
-|3|Restaurant Address also positioned at the top to enable easy finding of crucial information.| 
+|3|Restaurant Address also positioned at the top to enable easy finding of crucial information.|
 |4|By swiping right the user is able to navigate to the menu|
 |5|Clicking on “DOWNLOAD MENU” will allow user to download pdf version of menu|
 |6|Clicking on the “MAKE BOOKING” will bring the user to the Confirmation Page where the user is assured that their booking has been made and they will receive a confirmation email.|
@@ -263,11 +276,29 @@ After further consultation with the clients some extra user stories and features
 |9|Clicking on "TODAY'S BOOKINGS" brings the administrator to the list of today's bookings|
 |10|Clicking on "MANAGE" brings the administrator to"MANAGE BOOKING" screen where they are able to update the booking details or delete them.|
 
+### Mobile Wireframes
+
+![Mobile Wireframes 1](./docs/wireframes-mobile/combined-1.png)
+![Mobile Wireframes 2](./docs/wireframes-mobile/combined-2.png)
+![Mobile Wireframes 3](./docs/wireframes-mobile/combined-3.png)
+
+### Tablet Wireframes
+
+![Tablet Wireframes 1](./docs/wireframes-tablet/combined-1.png)
+![Tablet Wireframes 2](./docs/wireframes-tablet/combined-2.png)
+![Tablet Wireframes 3](./docs/wireframes-tablet/combined-3.png)
+
+### Desktop Wireframes
+
+![Desktop Wireframes 1](./docs/wireframes-desktop/combined-1.png)
+![Desktop Wireframes 2](./docs/wireframes-desktop/combined-2.png)
+![Desktop Wireframes 3](./docs/wireframes-desktop/combined-3.png)
+
 **Design Notes:**
 
-* The website has a minimalistic design with the crucial information positioned at the top. 
+* The website has a minimalistic design with the crucial information positioned at the top.
 
-* A consistent and global nav bar to ensure easy and intuitive navigation. 
+* A consistent and global nav bar to ensure easy and intuitive navigation.
 
 * Each page has a clear design with only the core information about the restaurant to help the user focus and not get overwhelmed by too many things at once.
 
@@ -275,20 +306,17 @@ After further consultation with the clients some extra user stories and features
 
 * Background image is consistent on the information pages. A white background is chosen for the booking pages to help the user focus.
 
+## R6
 
-
-# R6
-## Screenshots of Trello
+### Screenshots of Trello
 
 [Link to Trello](https://trello.com/b/GlyDoEN9/t3a2-full-stack-app)
-
 
 Got started with the basics (trello board creation, github repo creation), divided up the tasks and assigned cards with name of team member responsible. Set initial due dates.
 
 ![Trello 12thJul21-1](docs/Trello_12thJul21-1.PNG)
 
 ![Trello 12thJul21-2](docs/Trello_12thJul21-2.PNG)
-
 
 Began work on Rubric 1, Rubric 3 and Rubric 4 tasks.
 
