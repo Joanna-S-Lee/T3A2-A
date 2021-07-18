@@ -259,6 +259,9 @@ After further consultation with the clients some extra user stories and features
 |5|Clicking on “DOWNLOAD MENU” will allow user to download pdf version of menu|
 |6|Clicking on the “MAKE BOOKING” will bring the user to the Confirmation Page where the user is assured that their booking has been made and they will receive a confirmation email.|
 |7|Booking confirmation page that user is brought to after submitting their booking|
+|8|Clicking on "LOG IN" brings the administrator to the bookings system dashboard.|
+|9|Clicking on "TODAY'S BOOKINGS" brings the administrator to the list of today's bookings|
+|10|Clicking on "MANAGE" brings the administrator to"MANAGE BOOKING" screen where they are able to update the booking details or delete them.|
 
 **Design Notes:**
 
